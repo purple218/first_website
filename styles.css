@@ -1,0 +1,77 @@
+.navbar {
+  font-size: larger;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-left: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 60%;
+  width: 60%;
+}
+
+.title {
+  text-align: center;
+  color: purple;
+}
+.title_raph {
+  text-align: center;
+  color: red;
+}
+.title_mikey {
+  text-align: center;
+  color: orange;
+}
+
+.column {
+  width: 50%;
+}
+.column h2 {
+  text-align: center;
+}
+.column ul li {
+  margin-left: 16px;
+}
+
+.row {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1.5px solid black
+}
+.row:after {
+  content: "";
+  clear: both;
+}
+
+.fanclub {
+  justify-content: center;
+  margin: auto;
+}
+
+.search {
+  text-align: center;
+
+}
+
+.leonardo {
+  margin-left: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline;
+
+}
+.leonardo img {
+  width: 200px;
+  height: 300px;
+}
